@@ -132,3 +132,30 @@
       fill: white;
     }
   }
+
+  .buscet {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__header {
+      color: #222;
+      font-size: 30px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      padding-top: 96px;
+      margin-bottom: 64px;
+    }
+    &__hiden {
+      display: none;
+    }
+    &__items {
+      display: flex;
+      gap: 30px;
+      flex-direction: column;
+      padding-bottom: 50px;
+    }
+    
+  }
+

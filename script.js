@@ -1,14 +1,13 @@
 async function fetchData() {
   try {
     const response = await fetch("data.json");
-    console.log(response);
+
     if (!response.ok) {
       throw new Error("Не удалось получить данные с data.json");
     }
 
     const data = await response.json();
     const cartsBox = document.querySelector(".carts");
-    console.log(data);
 
     data.forEach(({ name, image, price, color, size, quantity }) => {
       const product = `

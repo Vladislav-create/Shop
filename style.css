@@ -250,6 +250,31 @@ summary::-webkit-details-marker {
   fill: white;
 }
 
+.buscet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buscet__header {
+  color: #222;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 96px;
+  margin-bottom: 64px;
+}
+.buscet__hiden {
+  display: none;
+}
+.buscet__items {
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
 .main__top {
   background-color: #f1e4e6;
   display: flex;
